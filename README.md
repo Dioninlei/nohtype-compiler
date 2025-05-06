@@ -45,6 +45,13 @@ You can specify an output file name:
 ```bash
 python nohtype_compiler.py <input_file.rpc> <output_file.py>
 ```
+This will generate a regular Python file called hello.py with the translated code.
+
+Run the Generated Python File
+Run the generated Python file:
+```bash
+python <out_file.py>
+```
 
 ## NohType Language Syntax
 
